@@ -9,10 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 configViewEngine(app);
-initWebRoute(app);
-// app.get("/", (req, res) => {
-//   res.render("test/index.ejs");
-// });
+initWebRoute(app); //dnskf
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
